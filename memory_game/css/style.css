@@ -7,18 +7,18 @@ h1, h2, a {
       text-transform:uppercase;
 }
 
-header {
-    background-color: #F15B31;
-    color: #FFFFFF;
-    padding: 30px 20px;
-}
 h1 {
-      font-family: Raleway, sans-serif;
-      //color: #0D2C40;//
+      font-family: Raleway;
       letter-spacing: 1px;
       font-weight: 400;
       font-size: 45px;
       margin: 0;
+}
+
+header {
+    background-color: #F15B31;
+    color: #FFFFFF;
+    padding: 30px 20px;
 }
 
 nav {
@@ -26,34 +26,28 @@ nav {
       color: #FFFFFF;
       padding: 20px 0;
 }
+
 a {
      font-family: Raleway;
-     color: #F15B31;
      letter-spacing: 1px;
      font-weight: 600;
      font-size: 18px;
      text-decoration: none;
      margin: 0 20px;
      border-bottom: 2px solid transparent;
-
-}
-
-a:hover {
-      /* Your styles here*/
 }
 
 main {
         width: 850px;
         margin: 35px auto;
 }
-
 h2 {
-      font-family: Raleway, serif;
+      font-family: Raleway;
       color: #0D2C40;
       letter-spacing: 1px;
       font-weight: 600;
       font-size: 20px;
-  }
+}
 
 p {
       font-family: "Droid Serif";
@@ -77,9 +71,9 @@ footer {
 
 }
 
-.copyright {
+.copyright{
             float: left;
-    }
+}
 
 .message {
             float: right;
@@ -97,4 +91,8 @@ footer {
 .name {
         color: #F15B31;
         font-weight: 700;
-    }
+}
+
+a:hover {
+          /* Your styles here*/
+}
