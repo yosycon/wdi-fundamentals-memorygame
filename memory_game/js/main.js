@@ -24,6 +24,7 @@ var cards = [
 var cardsInPlay = [];
 
 var checkForMatch = function() {
+  if (cardsInPlay.length === 2)
   if (cardsInPlay[0] === cardsInPlay[1]) {
     alert("you found a match!");
     } else {
@@ -40,4 +41,4 @@ var flipCard = function(cardId) {
 }
 
 flipCard(0);
-flipCard(2);
+flipCard(1);
